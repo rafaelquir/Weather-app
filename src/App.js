@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import LocationList from './components/LocationList';
+
 import './App.css';
+
 
 const cities = [
   "Caracas,ve",
@@ -11,11 +13,17 @@ const cities = [
   "Bogota,co",
 ];
 class App extends Component {
+  handleSelectedLocation = city =>{
+      console.log(`handleSelectedLocation ${city}`);
+  }
+
   render (){
     return (
-      <div className="App">
-        <LocationList cities = {cities}> </LocationList>
-      </div>
+     
+        <div className="App">
+          <LocationList cities = {cities} onSelectedLocation={this.handleSelectedLocation}> </LocationList>
+        </div>
+      
     );
   }
 }
