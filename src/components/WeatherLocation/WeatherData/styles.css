@@ -5,6 +5,8 @@
     line-height: 5rem;
     border-radius: 2rem;
     margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .weatherExtraInfoCont {
@@ -20,7 +22,7 @@
     display: inline-block;
 }
 .temperature{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     padding-left: 1rem;
     color:#333;
