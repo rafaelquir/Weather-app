@@ -3,7 +3,7 @@
     height: 3rem;
     text-align: left;
     color: #888;
-    margin-left: 2rem;
+    margin-left: 1rem;
     line-height: 4rem;
     overflow: hidden;
 }
@@ -14,12 +14,13 @@
 }
 
 .wheatherLocationCont {
-    width: calc(100% - 1rem);
+    width: calc(100% - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
-    min-width: 23rem;
+    min-width: 22rem;
     box-sizing:  border-box;
     padding: 1rem;
     font-family: 'Roboto', sans-serif;
-    box-shadow: 3rem 2rem 2rem -1rem rgba(0,0,0,0.5);
+    box-shadow: 1rem 2rem 2rem -1rem rgba(0,0,0,0.5);
+    cursor: pointer;
 }
