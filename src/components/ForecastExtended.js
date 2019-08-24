@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types'
 import ForecastItem from './ForecastItem';
 
@@ -30,7 +30,7 @@ const ForecastExtended =({city, forecastData}) => (
 
 ForecastExtended.propsTypes = {
     city: PropTypes.string.isRequired,
-    forecastData: PropTypes.array.isRequired, 
+    forecastData: PropTypes.array, 
 }
 
 export default ForecastExtended;
